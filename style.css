@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    font-family: "Inter", sans-serif;
+    display: flex;
+    justify-content: center;  
+}
+
+.container{
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    /* margin-top: 5%;
+    margin-bottom:5% ; */
+    margin: 5%;
+    padding: 40px 20px 40px 20px;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 20px;
+    cursor: pointer;
+justify-content: center;
+  
+}
+
+img{
+    border-radius: 100px;
+    margin-bottom: 20px;
+    
+}
+
+.head-container , .para1{
+    color: hsl(0, 0%, 100%);
+}
+
+h2{
+    display: block;
+    padding: 10px 10px 5px 10px; 
+    font-weight: 600;
+}
+
+.para{
+    display: block;
+    text-align: center;
+    font-weight: 700;
+    padding: 5px 10px 10px 10px;
+    font-size: 14px;
+}
+
+.para1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 400;
+    font-size: 14px;
+
+}
+
+
+button{
+    background-color:  hsl(0, 0%, 20%);
+    border-radius: 10px;
+    border: 0px;
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 15px 100px 15px 100px;
+    
+}
+
+.li-container div{
+    margin-top: 20px;
+}
+
+button:hover{
+    background-color: hsl(75, 94%, 57%);
+    color:hsl(0, 0%, 20%);
+    cursor: pointer;
+}
+
+@media (max-width:1024px) {
+    .container{
+        margin: 8% 0 8% 0;
+    
+}
+}
+
+@media (max-width:768px){
+    .container{
+        margin: 10%;
+    }
+}
+
+
+
+@media (max-width:600px) {
+    .container{
+        margin: 20% 0 8% 0;
+    
+}
+}
+
+@media (max-width:400px){
+    .container{
+        margin: 5% 0 5% 0;
+        padding: 20px 10px 20px 10px;
+    }
+}
+
+
+
+
+
+
+
